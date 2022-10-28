@@ -1,0 +1,8 @@
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\obj\Debug\4swap.cs.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\obj\Debug\4swap.cs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\obj\Debug\4swap.cs.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\bin\Debug\4swap.cs.exe.config
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\bin\Debug\4swap.cs.exe
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\bin\Debug\4swap.cs.pdb
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\obj\Debug\4swap.cs.exe
+C:\Users\Dell\source\repos\4swap.cs\4swap.cs\obj\Debug\4swap.cs.pdb

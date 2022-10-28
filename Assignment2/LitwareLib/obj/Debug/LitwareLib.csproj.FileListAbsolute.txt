@@ -1,0 +1,6 @@
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\bin\Debug\LitwareLib.dll
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\bin\Debug\LitwareLib.pdb
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\obj\Debug\LitwareLib.csproj.AssemblyReference.cache
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\obj\Debug\LitwareLib.csproj.CoreCompileInputs.cache
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\obj\Debug\LitwareLib.dll
+C:\Users\JANHAVI\source\repos\Assignment2\LitwareLib\obj\Debug\LitwareLib.pdb

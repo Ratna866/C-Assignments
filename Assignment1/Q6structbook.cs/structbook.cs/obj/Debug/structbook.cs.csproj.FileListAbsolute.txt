@@ -1,0 +1,8 @@
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\obj\Debug\structbook.cs.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\obj\Debug\structbook.cs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\obj\Debug\structbook.cs.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\bin\Debug\structbook.cs.exe.config
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\bin\Debug\structbook.cs.exe
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\bin\Debug\structbook.cs.pdb
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\obj\Debug\structbook.cs.exe
+C:\Users\Dell\source\repos\structbook.cs\structbook.cs\obj\Debug\structbook.cs.pdb

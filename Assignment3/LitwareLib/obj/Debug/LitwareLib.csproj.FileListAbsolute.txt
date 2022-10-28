@@ -1,0 +1,12 @@
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\bin\Debug\LitwareLib.dll
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\bin\Debug\LitwareLib.pdb
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.csproj.AssemblyReference.cache
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.csproj.CoreCompileInputs.cache
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.dll
+C:\Users\JANHAVI\source\repos\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.pdb
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\bin\Debug\LitwareLib.dll
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\bin\Debug\LitwareLib.pdb
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.csproj.AssemblyReference.cache
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.csproj.CoreCompileInputs.cache
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.dll
+D:\C#Assignments\ASSIGNMENT03\LitwareLib\obj\Debug\LitwareLib.pdb

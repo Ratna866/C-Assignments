@@ -1,0 +1,8 @@
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\bin\Debug\Highestm.cs.exe.config
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\bin\Debug\Highestm.cs.exe
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\bin\Debug\Highestm.cs.pdb
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\obj\Debug\Highestm.cs.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\obj\Debug\Highestm.cs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\obj\Debug\Highestm.cs.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\obj\Debug\Highestm.cs.exe
+C:\Users\Dell\source\repos\Highestm.cs\Highestm.cs\obj\Debug\Highestm.cs.pdb
