@@ -83,7 +83,7 @@ namespace Bank
 
         }
     }
-    class AxixBankAccount : BankAccount
+    class AxisBankAccount : BankAccount
     {
         public void withdraw(double amount)
         {
@@ -215,7 +215,7 @@ namespace Bank
         public static void KotakBankTransactions()
         {
             KotakBankAccount b = new KotakBankAccount();
-             KotakBankAccount.dataDelegate del = new ICICIBankAccount.dataDelegate(b.data);
+             KotakBankAccount.dataDelegate del = new KotakBankAccount.dataDelegate(b.data);
             del();
              KotakBankAccount.balanceDelegate del3 = new  KotakBankAccount.balanceDelegate(b.balance);
              KotakBankAccount.withdrawDelegate del2 = new  KotakBankAccount.withdrawDelegate(b.withdraw);
