@@ -11,7 +11,7 @@ namespace calculator
             string value;
             do
             {
-                int res;
+                int sum,sub,mul,div;
                 Console.Write("Enter first number:");
                 int num1 = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Enter second number:");
@@ -22,20 +22,20 @@ namespace calculator
                 switch (symbol)
                 {
                     case "+":
-                        res = num1 + num2;
-                        Console.WriteLine("Addition:" + res);
+                        sum = num1 + num2;
+                        Console.WriteLine("Addition:" + sum);
                         break;
                     case "-":
-                        res = num1 - num2;
-                        Console.WriteLine("Subtraction:" + res);
+                        sub = num1 - num2;
+                        Console.WriteLine("Subtraction:" + sub);
                         break;
                     case "*":
-                        res = num1 * num2;
-                        Console.WriteLine("Multiplication:" + res);
+                        mul = num1 * num2;
+                        Console.WriteLine("Multiplication:" + mul);
                         break;
                     case "/":
-                        res = num1 / num2;
-                        Console.WriteLine("Division:" + res);
+                        div = num1 / num2;
+                        Console.WriteLine("Division:" + div);
                         break;
                     default:
                         Console.WriteLine("Wrong input");
