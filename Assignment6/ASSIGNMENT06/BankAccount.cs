@@ -5,19 +5,12 @@ namespace Bank
 {
     class BankAccount
     {
-        public double AccountNumber = 9689639638;
+        public double AccountNumber = 6548632188;
         public string Name = "Ratn";
-        public double bankbalance = 13500;
+        public double bankbalance = 45963;
         public delegate void dataDelegate();
         public void data()
-        {
-            //    BankAccount Accounts = new BankAccount();
-            //    Console.WriteLine("enter account number");
-            //     Accounts.AccountNumber = Convert.ToInt64(Console.ReadLine());
-            //    Console.WriteLine("enter your name");
-            //         Accounts.Name = Console.ReadLine();
-            //    Console.WriteLine("enter"
-            //    Accounts.bankbalance = Convert.ToInt64(Console.ReadLine());
+        
             Console.WriteLine("Accountnumber={0}\nAccountHolder={1}\nBankbalance={2}", AccountNumber, Name, bankbalance);
         }
         public delegate void depositDelegate(double money);
@@ -61,7 +54,7 @@ namespace Bank
 
         }
     }
-    class ICICIBankAccount : BankAccount
+    class KotakBankAccount : BankAccount
     {
         public void withdraw(double amount)
         {
@@ -90,7 +83,7 @@ namespace Bank
 
         }
     }
-    class HDFCBankAccount : BankAccount
+    class AxixBankAccount : BankAccount
     {
         public void withdraw(double amount)
         {
@@ -126,18 +119,18 @@ namespace Bank
             try
             {
             again:
-                Console.WriteLine("enter which banktransaction you want to do\n 1.Bank\n2.ICICI\n3.HDFC\n4.Exit ");
+                Console.WriteLine("enter which banktransaction you want to do\n 1.Bank\n2.Kotak\n3.Axis\n4.Exit ");
 
                 string ba = Console.ReadLine();
                 if (ba.ToUpper() == "BANK")
                 {
                     transactions.BankTransactions();
                 }
-                else if (ba.ToUpper() == "ICICI")
+                else if (ba.ToUpper() == "Kotak")
                 {
                     transactions.ICICIBankTransactions();
                 }
-                else if (ba.ToUpper() == "HDFC")
+                else if (ba.ToUpper() == "Axis")
                 {
                     transactions.HDFCBankTransactions();
                 }
@@ -219,14 +212,14 @@ namespace Bank
 
         }
 
-        public static void ICICIBankTransactions()
+        public static void KotakBankTransactions()
         {
-            ICICIBankAccount b = new ICICIBankAccount();
-            ICICIBankAccount.dataDelegate del = new ICICIBankAccount.dataDelegate(b.data);
+            KotakBankAccount b = new KotakBankAccount();
+             KotakBankAccount.dataDelegate del = new ICICIBankAccount.dataDelegate(b.data);
             del();
-            ICICIBankAccount.balanceDelegate del3 = new ICICIBankAccount.balanceDelegate(b.balance);
-            ICICIBankAccount.withdrawDelegate del2 = new ICICIBankAccount.withdrawDelegate(b.withdraw);
-            ICICIBankAccount.depositDelegate del1 = new ICICIBankAccount.depositDelegate(b.deposit);
+             KotakBankAccount.balanceDelegate del3 = new  KotakBankAccount.balanceDelegate(b.balance);
+             KotakBankAccount.withdrawDelegate del2 = new  KotakBankAccount.withdrawDelegate(b.withdraw);
+             KotakBankAccount.depositDelegate del1 = new  KotakBankAccount.depositDelegate(b.deposit);
         tran:
             Console.WriteLine("enter youer choice\n1.depoist\n2.withdraw\n3.balance\n4.exit\nselect respective number for transactions");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -275,14 +268,14 @@ namespace Bank
             }
 
         }
-        public static void HDFCBankTransactions()
+        public static void AxisBankTransactions()
         {
-            HDFCBankAccount b = new HDFCBankAccount();
-            HDFCBankAccount.dataDelegate del = new HDFCBankAccount.dataDelegate(b.data);
+            AxisBankAccount b = new AxisBankAccount();
+           AxisBankAccount.dataDelegate del = new AxisBankAccount.dataDelegate(b.data);
             del();
-            HDFCBankAccount.balanceDelegate del3 = new HDFCBankAccount.balanceDelegate(b.balance);
-            HDFCBankAccount.withdrawDelegate del2 = new HDFCBankAccount.withdrawDelegate(b.withdraw);
-            HDFCBankAccount.depositDelegate del1 = new HDFCBankAccount.depositDelegate(b.deposit);
+            AxisBankAccount.balanceDelegate del3 = new AxisBankAccount.balanceDelegate(b.balance);
+            AxisBankAccount.withdrawDelegate del2 = new AxisBankAccount.withdrawDelegate(b.withdraw);
+            AxisBankAccount.depositDelegate del1 = new AxisBankAccount.depositDelegate(b.deposit);
         tran:
             Console.WriteLine("enter youer choice\n1.depoist\n2.withdraw\n3.balance\n4.exit\nselect respective number for transactions");
             int choice = Convert.ToInt32(Console.ReadLine());
