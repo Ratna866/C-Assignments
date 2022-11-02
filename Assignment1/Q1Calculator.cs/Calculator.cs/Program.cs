@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    class arithmatic
+    class arithmaticoperations
     {
         static void Main(string[] args)
         {
